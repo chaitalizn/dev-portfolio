@@ -6,6 +6,10 @@
   --bold: #E63946;
 }
 
+html {
+  font-size: 100%;
+}
+
 main {
   margin: 0 auto;
 }
@@ -22,25 +26,39 @@ body {
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 6rem;
+  font-weight: bold;
+  font-size: 4.5rem;
   color: var(--secondary);
+  margin-bottom: 0;
 }
 
 .highlightName {
   color: var(--light);
-  font-weight: bold;
 }
 
 hr {
-  width: 33%;
-  border-top: .5rem solid var(--light);
-  margin-left: 0;
+  width: 56%;
+  border-top: .3rem solid var(--light);
+  margin: 1.5vw auto 3vw 0;
 }
 
 p {
   font-weight: 'Lato';
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: var(--light);
+}
+
+.container {
+  display: flex;
+  align-items:flex-end;
+}
+
+.aboutContent {
+  padding: 0 3vw 3vw 3vw;
+}
+
+.about img {
+  width: 50vw;
+  height: auto;
 }
