@@ -11,28 +11,21 @@ function Nav() {
         console.log("hi")
     }
     return(
-        <header className="container">
-            <h2>
-                <a href="/">
-                    <img src={Logo} alt="Logo"/>
-                </a>
-            </h2>
-            <nav>
-                <ul className="container">
+        <nav>
+            <ul className="container">
 
-                    {menu.map(menuItem => 
-                        
-                    <li className="" key={menuItem}>
+                {menu.map(menuItem => 
+                    
+                <li className="" key={menuItem}>
 
-                        <span onClick={menuSelected}>
-                            {menuItem}
-                        </span>
+                    <span onClick={menuSelected}>
+                        {menuItem}
+                    </span>
 
-                    </li>
-                    )}
-                </ul>
-            </nav>
-        </header>
+                </li>
+                )}
+            </ul>
+        </nav>
     )
 };
 
