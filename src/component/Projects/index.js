@@ -43,6 +43,7 @@ function Projects({name}) {
 
     return (
         <section>
+            <h2>Projects</h2>
             {projects.map(project => (
             <div>
                 <div>

@@ -14,7 +14,9 @@ function About() {
                 </h1>
                 <hr/>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar nisl quis ex cursus sollicitudin. Mauris eu elit non ligula rutrum venenatis. Praesent id sodales leo. Quisque aliquam blandit eros a gravida.  Sed venenatis, leo id tincidunt molestie, risus lorem ornare lorem, nec pellentesque est eros vitae turpis. Praesent nisl nulla, maximus quis est et, hendrerit semper nisl.
+                I am highly self-motivated Full Stack Web Developer with knowledge and proficiency in JavaScript, HTML, CSS, MERN and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code, unit testing and debugging.
+                <br />
+                Exceptional collaborative and interpersonal skills; dynamic team player with excellent communication abilities. Results-orientated professional accustomed to surpassing expectations in deadline-driven environments.
                 </p>
             </div>
         </section>

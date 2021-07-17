@@ -4,6 +4,7 @@ import About from './component/About';
 import ContactForm from './component/Contact';
 import Header from './component/Header';
 import Projects from './component/Projects';
+import Resume from './component/Resume';
 
 function App() {
 
@@ -14,8 +15,9 @@ function App() {
         break;
       case "Contact":
         return <ContactForm></ContactForm>
+        break;
       case "Resume":
-        return <About></About>
+        return <Resume></Resume>
         break;
       default:
         return <About></About>
