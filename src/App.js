@@ -3,6 +3,7 @@ import './App.css';
 import About from './component/About';
 import ContactForm from './component/Contact';
 import Header from './component/Header';
+import Projects from './component/Projects';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <main>
         <About></About>
         <ContactForm></ContactForm>
+        <Projects></Projects>
       </main>
     </div>
   )
