@@ -3,7 +3,8 @@ import Logo from '../../assets/logo.png';
 import Nav from '../Nav';
 
 
-function Header() {
+function Header({menu, setCurrentMenu, currentMenu}) {
+
     return(
         <header className="container">
             <h2>
@@ -11,7 +12,11 @@ function Header() {
                     <img src={Logo} alt="Logo"/>
                 </a>
             </h2>
-            <Nav></Nav>
+            <Nav
+                menu={menu}
+                setCurrentMenu={setCurrentMenu}
+                currentMenu={currentMenu}
+            ></Nav>
         </header>
     )
 };
