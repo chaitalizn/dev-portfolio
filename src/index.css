@@ -24,6 +24,7 @@ body {
   background-color: var(--primary);
 }
 
+/* about page*/
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -61,4 +62,20 @@ p {
 .about img {
   width: 50vw;
   height: auto;
+}
+
+/* common style */
+
+.flex-row {
+  display: flex;
+}
+/*nav items */
+
+.navItem {
+color: var(--light);
+list-style-type: none;
+padding: 1vw;
+}
+.navItem:hover {
+  color: var(--hightlight);
 }

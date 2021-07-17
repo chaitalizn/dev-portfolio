@@ -10,11 +10,11 @@ function Nav({menu, setCurrentMenu, currentMenu}) {
 
     return(
         <nav>
-            <ul className="container">
+            <ul className="flex-row">
 
                 {menu.map(menuItem => (
                     
-                <li className={`${currentMenu === menuItem && 'navActive'}`} key={menuItem}>
+                <li className={`navItem ${currentMenu === menuItem && 'navActive'}`} key={menuItem}>
 
                     <span onClick={() => {setCurrentMenu(menuItem)}}>
                         {menuItem}
