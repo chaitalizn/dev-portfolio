@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './App.css';
 import About from './component/About';
-import Header from './component/Header'
+import ContactForm from './component/Contact';
+import Header from './component/Header';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       </Header>
       <main>
         <About></About>
+        <ContactForm></ContactForm>
       </main>
     </div>
   )
