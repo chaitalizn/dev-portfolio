@@ -14,7 +14,7 @@ function Nav({menu, setCurrentMenu, currentMenu}) {
 
                 {menu.map(menuItem => (
                     
-                <li className={`navItem ${currentMenu === menuItem && 'navActive'}`} key={menuItem}>
+                <li className={`navItem ${currentMenu === menuItem && `navActive`}`} key={menuItem}>
 
                     <span onClick={() => {setCurrentMenu(menuItem)}}>
                         {menuItem}

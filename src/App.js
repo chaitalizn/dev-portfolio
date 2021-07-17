@@ -7,6 +7,21 @@ import Projects from './component/Projects';
 
 function App() {
 
+  function displayContent(currentMenu) {
+    switch(currentMenu) {
+      case "Projects":
+        return <Projects></Projects>
+        break;
+      case "Contact":
+        return <ContactForm></ContactForm>
+      case "Resume":
+        return <About></About>
+        break;
+      default:
+        return <About></About>
+  }
+  }
+
   const [menu] = useState([
     "About Me", "Projects", "Contact", "Resume"
   ])
@@ -22,9 +37,7 @@ function App() {
           >
       </Header>
       <main>
-        <About></About>
-        <ContactForm></ContactForm>
-        <Projects></Projects>
+       {displayContent(currentMenu)}
       </main>
     </div>
   )

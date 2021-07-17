@@ -24,6 +24,9 @@ body {
   background-color: var(--primary);
 }
 
+/* header */
+
+
 /* about page*/
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -50,11 +53,6 @@ p {
   color: var(--light);
 }
 
-.container {
-  display: flex;
-  align-items:flex-end;
-}
-
 .aboutContent {
   padding: 0 3vw 3vw 3vw;
 }
@@ -66,9 +64,6 @@ p {
 
 /* common style */
 
-.flex-row {
-  display: flex;
-}
 /*nav items */
 
 .navItem {
@@ -77,5 +72,8 @@ list-style-type: none;
 padding: 1vw;
 }
 .navItem:hover {
+  color: var(--hightlight);
+}
+.navActive {
   color: var(--hightlight);
 }
