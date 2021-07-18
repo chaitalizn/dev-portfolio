@@ -37,18 +37,19 @@ function ContactForm() {
     return (
         <section>
         <h2>Contact me</h2>
-        <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input type="text" name="name" defaultValue={name} onChange={handleChange}/>
+        
+        <form className="container" id="contact-form" onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <label className="form-label" htmlFor="name">Name:</label>
+            <input className="form-control" type="text" name="name" defaultValue={name} onChange={handleChange}/>
           </div>
-          <div>
-            <label htmlFor="email">Email address:</label>
-            <input type="email" name="email" defaultValue={email} onChange={handleChange}/>
+          <div className="mb-3">
+            <label className="form-label" htmlFor="email">Email address:</label>
+            <input className="form-control" type="email" name="email" defaultValue={email} onChange={handleChange}/>
           </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" defaultValue={message} onChange={handleChange}/>
+          <div className="mb-3">
+            <label className="form-label" htmlFor="message">Message:</label>
+            <textarea className="form-control" name="message" rows="5" defaultValue={message} onChange={handleChange}/>
           </div>
           {errorMessage && (
             <div>

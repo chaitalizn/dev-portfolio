@@ -31,9 +31,18 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: var(--secondary);
   margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--light);
+  padding: 2vw;
+  text-align: center;
 }
 
 .highlightName {
@@ -42,19 +51,15 @@ h1 {
 
 hr {
   width: 56%;
-  border-top: .3rem solid var(--light);
+  border-top: .4rem solid var(--light);
   margin: 1.5vw auto 3vw 0;
 }
 
 p {
   font-weight: 'Lato';
   font-weight: lighter;
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   color: var(--light);
-}
-
-.aboutContent {
-  padding: 0 3vw 3vw 3vw;
 }
 
 .about img {
@@ -69,11 +74,58 @@ p {
 .navItem {
 color: var(--light);
 list-style-type: none;
-padding: 1vw;
 }
+
 .navItem:hover {
   color: var(--hightlight);
 }
 .navActive {
   color: var(--hightlight);
+}
+
+.projectPhoto {
+  width: 100%
+}
+
+.projectInfo {
+  padding: 1rem 0 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light);
+  
+}
+
+.projectLink {
+  background-color: var(--hightlight);
+  text-align: center;
+  padding:.25rem 0 .25rem 0;
+}
+
+.projectLink a {
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+.skills p {
+  text-align: center;
+}
+
+button {
+  background-color: var(--light);
+  color: var(--secondary);
+  padding: .25rem 1rem;
+  border: none;
+  margin-top: 3rem;
+}
+
+.form-label {
+  color: var(--light);
+  font-weight: bold;
+
+}
+
+.form-control {
+  background-color: var(--primary);
 }

@@ -10,11 +10,11 @@ function Nav({menu, setCurrentMenu, currentMenu}) {
 
     return(
         <nav>
-            <ul className="flex-row">
+            <ul className="row align-items-center">
 
                 {menu.map(menuItem => (
                     
-                <li className={`navItem ${currentMenu === menuItem && `navActive`}`} key={menuItem}>
+                <li className={`col navItem ${currentMenu === menuItem && `navActive`}`} key={menuItem}>
 
                     <span onClick={() => {setCurrentMenu(menuItem)}}>
                         {menuItem}

@@ -3,28 +3,27 @@ import React from 'react';
 function Resume() {
     return (
         <div>
-            <div>
-            <h2>Skills
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Bootstrap</p>
-                <p>jQuery</p>
-                <p>JavaScript</p>
-                <p>Version Control (Git)</p>
-                <p>API</p>
-                <p>Node.js</p>
-                <p>Express.js</p>
-                <p>SQL and NoSQL Database</p>
-                <p>MongoDB</p>
-                <p>HTTP and REST</p>
-                <p>React</p>
-                <p>Syntax Knowleage of JSON</p>
-                <p>Unit testing</p>
-            </h2>
+            <h2>Skills </h2>
+            <div className="skills row">
+                <p className="col-3">HTML</p>
+                <p className="col-3">CSS</p>
+                <p className="col-3">Bootstrap</p>
+                <p className="col-3">jQuery</p>
+                <p className="col-3">JavaScript</p>
+                <p className="col-3">Version Control (Git)</p>
+                <p className="col-3">API</p>
+                <p className="col-3">Node.js</p>
+                <p className="col-3">Express.js</p>
+                <p className="col-3">SQL and NoSQL Database</p>
+                <p className="col-3">MongoDB</p>
+                <p className="col-3">HTTP and REST</p>
+                <p className="col-3">React</p>
+                <p className="col-3">Syntax Knowleage of JSON</p>
+                <p className="col-3">Unit testing</p>
             </div>
 
-            <div>
-                <button href="">Download Resume</button>
+            <div className="d-flex justify-content-center">
+                <button href="">DOWNLOAD RESUME</button>
             </div>
         </div>
     )

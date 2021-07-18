@@ -5,6 +5,7 @@ import ContactForm from './component/Contact';
 import Header from './component/Header';
 import Projects from './component/Projects';
 import Resume from './component/Resume';
+import Footer from './component/Footer';
 
 function App() {
 
@@ -41,6 +42,8 @@ function App() {
       <main>
        {displayContent(currentMenu)}
       </main>
+      <Footer>
+      </Footer>
     </div>
   )
 }

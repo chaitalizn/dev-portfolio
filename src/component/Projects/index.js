@@ -42,25 +42,33 @@ function Projects({name}) {
     ])
 
     return (
-        <section>
-            <h2>Projects</h2>
+        <section className="row">
+            <h2 className="col">PROJECTS</h2>
+        <div className="row d-flex justify-content-center">
             {projects.map(project => (
-            <div>
-                <div>
-                    <img
-                    src={require(`../../assets/${project.name}.PNG`).default}
-                    alt={project.name}
-                    key={project.name}
-                    />
+                <div className="col-4 m-3">
+                    <div>
+                        <img 
+                        className="projectPhoto"
+                        src={require(`../../assets/${project.name}.PNG`).default}
+                        alt={project.name}
+                        key={project.name}
+                        />
+                    </div>
+                    <div className="projectInfo">
+                        <div>
+                            <p className="fw-bold fs-4">{project.name}</p>
+                            <p className="fs-5">{`Technologies: ${project.skills}`}</p>
+                        </div>
+                        <div className="row">
+                            <p className="projectLink m-1 col"><a href={project.app} target="_blank" >View Application</a></p>
+                            <p className="projectLink m-1 col"><a href={project.repo} target="_blank" >View GitHub Repository</a></p>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div>
-                    <p>{project.name}</p>
-                    <p>{`Technologies: ${project.skills}`}</p>
-                    <p><a href={project.app} target="_blank" >View Application</a></p>
-                    <p><a href={project.repo} target="_blank" >View GitHub Repository</a></p>
-                </div>
-            </div>
             ))}
+        </div>
         </section>
     )
 }
