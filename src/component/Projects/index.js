@@ -44,7 +44,9 @@ function Projects({name}) {
     return (
         <section className="row">
             <h2 className="col">PROJECTS</h2>
+
         <div className="row d-flex justify-content-center">
+            
             {projects.map(project => (
                 <div className="col-4 m-3">
                     <div>

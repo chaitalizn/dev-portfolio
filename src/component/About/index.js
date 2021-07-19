@@ -1,13 +1,14 @@
 import React from 'react';
-import profileImage from '../../assets/chaitali-patel-photo.png';
+import profileImage from '../../assets/profilepic.png';
 
 function About() {
     return (
-        <section className="about row align-items-end">
-            <div className="col">
+        <section className="about row d-flex justify-content-center align-items-center
+        ">
+            <div className="col-4">
                 <img src={profileImage} alt="chaitali patel photo" />
             </div>
-            <div className="col">
+            <div className="col-6">
                 <h1 id="about"> Hi, 
                 <br /> <span className="highlightName">I'M CHAITALI PATEL.</span>
                 <br /> Web Developer

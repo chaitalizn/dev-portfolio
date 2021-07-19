@@ -1,4 +1,5 @@
 import React from 'react';
+import Download from '../../assets/ChaitaliPatelResume.pdf';
 
 function Resume() {
     return (
@@ -23,7 +24,7 @@ function Resume() {
             </div>
 
             <div className="d-flex justify-content-center">
-                <button href="">DOWNLOAD RESUME</button>
+                <button href={Download} >DOWNLOAD RESUME</button>
             </div>
         </div>
     )

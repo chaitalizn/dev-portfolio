@@ -31,7 +31,7 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: var(--secondary);
   margin-bottom: 0;
 }
@@ -50,7 +50,7 @@ h2 {
 }
 
 hr {
-  width: 56%;
+  width: 60%;
   border-top: .4rem solid var(--light);
   margin: 1.5vw auto 3vw 0;
 }
@@ -58,12 +58,15 @@ hr {
 p {
   font-weight: 'Lato';
   font-weight: lighter;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--light);
 }
 
+.about {
+  padding: 2vw;
+}
 .about img {
-  width: 50vw;
+  width: 100%;
   height: auto;
 }
 
@@ -128,4 +131,12 @@ button {
 
 .form-control {
   background-color: var(--primary);
+}
+
+footer img {
+ width: 2rem;
+}
+
+.logo {
+width: 40%;
 }

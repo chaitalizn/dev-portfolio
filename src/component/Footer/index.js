@@ -7,10 +7,19 @@ function About() {
     return (
        <footer>
            
-           <div>
-            <img src={Email} alt="email-link"/>
-            <img src={Github} alt="github-link"/>
-            <img src={LinkedIn} alt="linkedin-link"/>
+           <div className="row d-flex justify-content-end p-3">
+            
+            <div className="col-2 p-2" >
+            <a className="m-2" href="mailto:phchaitali3@gmail.com">
+                <img src={Email} alt="email-link"/>
+                </a>
+            <a className="m-2" href="https://github.com/chaitalizn">
+                <img src={Github} alt="github-link"/>
+                </a>
+            <a className="m-2" href="www.linkedin.com/in/pchaitali">
+                <img src={LinkedIn} alt="linkedin-link"/>
+                </a>
+            </div>
            </div>
            
            </footer>

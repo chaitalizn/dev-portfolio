@@ -9,8 +9,8 @@ function Nav({menu, setCurrentMenu, currentMenu}) {
       }, [currentMenu]);
 
     return(
-        <nav>
-            <ul className="row align-items-center">
+        <nav className="container">
+            <ul className="row d-flex align-items-center">
 
                 {menu.map(menuItem => (
                     
